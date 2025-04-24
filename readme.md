@@ -1,5 +1,10 @@
 # Expense Tracker Documentation
 
+## Links
+
+See my Designs as im building live : https://www.figma.com/design/5J1Ooa5tWvulwibQokN1WE/Expense-Tracker?node-id=1-2&t=Cd9KEJPqNkOuRclt-1
+you're already in my repo... not linking that
+
 ## Context
 
 Purely a project intended for personal use, i've found often i'm getting paid and
