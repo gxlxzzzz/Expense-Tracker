@@ -1,0 +1,164 @@
+/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== GLOBAL ========== */
+body {
+    background-color: #3B4252;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+/* ========== HEADER ========== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #ECEFF4;
+}
+
+/* ========== BUTTONS ========== */
+.auth-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.auth-buttons .btn,
+a.btn {
+    background-color: #D08770;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-buttons .btn:hover,
+a.btn:hover {
+    background-color: #b96b5c;
+}
+
+/* ========== MAIN LAYOUT ========== */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* ========== TEXT CONTENT ========== */
+.content {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content p {
+    font-weight: 600;
+    line-height: 1.6;
+    color: #ECEFF4;
+}
+
+/* ========== ICON / POUND SIGN ========== */
+.icon {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon span {
+    font-size: 120px;
+    font-weight: 900;
+    color: #D08770;
+}
+
+/* ========== FORM CONTAINER ========== */
+.form-container {
+    background-color: #3B4252;
+    padding: 60px 20px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========== FORMS ========== */
+form {
+    background-color: #3B4252;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 320px;
+    width: 100%;
+}
+
+form h2 {
+    font-size: 28px;
+    color: #ECEFF4;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input {
+    padding: 12px;
+    border: 1px solid #ECEFF4;
+    border-radius: 10px;
+    background: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #D08770;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #b96b5c;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .content, .icon {
+        flex: 1 1 100%;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
